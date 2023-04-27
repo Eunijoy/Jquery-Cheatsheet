@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Documentation</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="#click">.click()</a></li>
+            <li><a href="#hide">.hide()</a></li>
+            <li><a href="#show">.show()</a></li>
+            <li><a href="#toggle">.toggle()</a></li>
+            <li><a href="#slideD">.slideDown()</a></li>
+            <li><a href="#slideU">.slideUp()</a></li>
+            <li><a href="#slideT">.slideToggle()</a></li>
+            <li><a href="#fadeI">.fadeIn()</a></li>
+            <li><a href="#fadeO">.fadeOut()</a></li>
+            <li><a href="#addC">.addClass()</a></li>
+            <li><a href="#before">.before()</a></li>
+            <li><a href="#after">.after()</a></li>
+            <li><a href="#append">.append()</a></li>
+            <li><a href="#html">.html()</a></li>
+            <li><a href="#attr">.attr()</a></li>
+            <li><a href="#val">.val()</a></li>
+            <li><a href="#text">.text()</a></li>
+        </ul>
+    </header>
+
+        <section>
+            <h1>My Mini Documentation</h1>
+            <div class="box" id="click">
+                <h2>Click</h2> 
+                <p>Binds on event handler to the "click" Javascript event,or trigger that event on an element. <br> Example: Clicking the button will display alert box.</p>
+                <button>.click()</button>
+            </div>
+
+            <div class="box" id="hide">
+                <h2>Hide</h2>
+                <p>Hides the matched elements. <br> Example: Hiding this paragraph</p>
+                <button>.hide()</button>
+            </div>
+            <div class="box" id="show">
+                <h2>Show</h2>
+                <p>Displays the matched elements. <br> Example: Showing the hidden paragraph here.</p>
+                <button>.show()</button>
+            </div>
+            <div class="box" id="toggle">
+                <h2>Toggle</h2>
+                <p>The toggle() method toggles between hide() and show() for the selected elements.  <br> This method checks the selected elements for visibility. <br> show() is run if an element is hidden.</p>
+                <button>.toggle()</button>
+            </div>
+            <div class="box" id="slideD">
+                <h2>SlideDown</h2>
+                <p>The slideDown() method slides-down (shows) the selected elements. <br> Note: slideDown() works on elements hidden with jQuery methods <br> and display:none in CSS (but not visibility:hidden). <br> Tip: To slide-up (hide) elements, look at the slideUp() method.</p>
+                <button>.slideDown()</button> 
+            </div>
+            <div class="box" id="slideU">
+                <h2>SlideUp</h2>
+                <p>The slideUp() method slides-up (hides) the selected elements. <br> Note: Hidden elements will not be displayed at all (no longer affects the layout of the page). <br> Tip: To slide-down (show) elements, look at the slideDown() method.</p>
+                <button>.slideUp()</button>    
+            </div>
+            <div class="box" id="slideT">
+                <h2>SlideToggle</h2>
+                <p>The slideToggle() method toggles between slideUp() and slideDown() for the selected elements. <br> This method checks the selected elements for visibility. slideDown() is run if an element is hidden. slideUp() is run if an element is visible - This creates a toggle effect.</p>
+                <button>.slideToggle</button>    
+            </div>
+            <div class="box" id="fadeI">
+                <h2>FadeIn</h2>
+                <p>The fadeIn() method gradually changes the opacity, for selected elements, from hidden to visible (fading effect). Note: Hidden elements will not be displayed at all (no longer affects the layout of the page). Tip: This method is often used together with the fadeOut() method.</p>
+                <button>.fadeIn()</button>  
+            </div>
+            <div class="box" id="fadeO">
+                <h2>FadeOut</h2>
+                <p>The fadeOut() method gradually changes the opacity, for selected elements, from visible to hidden (fading effect). Note: Hidden elements will not be displayed at all (no longer affects the layout of the page). Tip: This method is often used together with the fadeIn() method.</p>
+                <button>.fadeOut()</button>   
+            </div>
+            <div class="box" id="addC">
+                <h2>AddClass</h2>
+                <p>addClass( className )Returns: jQuery. Description: Adds the specified class(es) to each element in the set of matched elements.</p>
+                <button>.addClass()</button>
+            </div>
+            <div class="box" id="before">
+                <h2>Before</h2>
+                <p>The before() method inserts specified content in front of (before) the selected elements. Tip: To insert content after selected elements, use the after() method.</p>
+                <button>.before()</button>        
+            </div>
+            <div class="box" id="after">
+                <h2>After</h2>
+                <p>The after() method inserts specified content after the selected elements. Tip: To insert content before selected elements, use the before() method.</p>
+                <button>.after()</button>
+            </div>
+            <div class="box" id="append">
+                <h2>Append</h2>
+                <p>The append() method inserts specified content at the end of the selected elements. Tip: To insert content at the beginning of the selected elements, use the prepend() method.</p>
+                <button>.append()</button>
+            </div>
+            <div class="box" id="html">
+                <h2>Html</h2>
+                <p>The html() method sets or returns the content (innerHTML) of the selected elements.</p>
+                <button>.html()</button>
+            </div>
+            <div class="box" id="attr">
+                <h2>Attr</h2>
+                <p>The attr() method sets or returns attributes and values of the selected elements. When this method is used to return the attribute value, it returns the value of the FIRST matched element.</p>
+                <button>.attr()</button>
+            </div>
+            <div class="box" id="val">
+                <h2>Val</h2>
+                <p>The val() method returns or sets the value attribute of the selected elements. When used to return value: This method returns the value of the value attribute of the FIRST matched element.</p>
+                <button>.val()</button> 
+            </div>
+            <div class="box" id="text">
+                <h2>Text</h2>
+                <p>The text() method sets or returns the text content of the selected elements. When this method is used to return content, it returns the text content of all matched elements (HTML markup will be removed).</p>
+                <button>.text()</button>
+            </div>
+        </section>
+</body>
+</html>
